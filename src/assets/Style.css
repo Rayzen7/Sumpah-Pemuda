@@ -1,0 +1,43 @@
+.bar::-webkit-scrollbar {
+    display: none;
+}
+  
+.bar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
+.home::-webkit-scrollbar {
+    width: 12px; 
+}
+  
+.home::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+  
+.home::-webkit-scrollbar-thumb {
+    background: rgb(128, 0, 0); 
+    border-radius: 10px;
+}
+  
+.home::-webkit-scrollbar-thumb:hover {
+    background: rgb(128, 0, 0); 
+}
+
+.br {
+  display: block;
+}
+
+.list {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .list {
+    display: block;
+  }
+
+  .br {
+    display: none;
+  }
+}
