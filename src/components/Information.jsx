@@ -21,7 +21,7 @@ const Information = () => {
     }, []);
 
     return (
-        <div className='w-full h-auto lg:-mt-10 mt-40 overflow-hidden'>
+        <div className='w-full h-auto lg:-mt-10 mt-52 overflow-hidden'>
             <div
                 className='flex'
                 ref={imgRef}
