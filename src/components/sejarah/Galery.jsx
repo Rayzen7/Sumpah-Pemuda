@@ -13,7 +13,7 @@ import { EffectCards } from 'swiper/modules';
 const Galery = () => {
   return (
     <div className="lg:w-[600px] lg:px-0 px-9 w-[320] overflow-hidden h-auto mx-auto block lg:my-32 my-28">
-        <h1 className='text-center font-poppins font-[600] text-[32px] lg:text-[40px] mb-20'>Galery <span className='text-red-600'>Sumpah Pemuda</span></h1>
+        <h1 className='text-center font-poppins font-[600] text-[32px] lg:text-[40px] mb-10'>Galery <span className='text-red-600'>Sumpah Pemuda</span></h1>
       <Swiper
         modules={[EffectCards]}
         effect="cards"
