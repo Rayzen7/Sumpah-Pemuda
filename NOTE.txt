@@ -1,0 +1,6 @@
+NOTE!!
+Sebelum menjalan website pastikan sudah menginstall node_modules,
+jika belum maka install dengan perintah "npm install"
+
+Website yang telah dihosting :
+https://sumpah-pemuda.vercel.app
