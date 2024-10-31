@@ -24,4 +24,40 @@ export const aboutAccordion = [
         title: 'Nilai-Nilai Sumpah Pemuda',
         description: 'Nilai persatuan dari Sumpah Pemuda diterapkan dalam kehidupan bermasyarakat, seperti dalam dunia kerja, organisasi sosial, dan komunitas budaya yang mendorong persatuan di tengah keberagaman. Semangat ini memberi inspirasi kepada masyarakat untuk terus menjaga kesatuan bangsa.'
     },
+];
+
+export const aboutTokoh = [
+    {
+        id: 1,
+        img: '/tokoh/tjiptomangunkusumo.jpg',
+        nama: 'Dr. Tjipto Mangunkusumo',
+        lahir: '4 Maret 1880',
+        wafat: '8 Maret 1943',
+        pendidikan: 'STOVIA (School Tot Opleiding van Indische Artsen)',
+        agama: 'Islam',
+        tempat: 'Batavia (Jakarta)',
+        deskripsi: 'Seorang dokter dan tokoh pergerakan nasional yang aktif melawan kolonialisme Belanda.'
+    },
+    {
+        id: 2,
+        nama: 'Dr. Ernest Douwes Dekker',
+        img: '/tokoh/Douwes.jpg',
+        lahir: '8 Oktober 1879',
+        wafat: '28 Agustus 1950',
+        pendidikan: 'Pendidikan dasar di Hindia Belanda',
+        agama: 'Islam',
+        tempat: 'Bandung',
+        deskripsi: 'Aktivis pergerakan kemerdekaan Indonesia dan salah satu pendiri Indische Partij.'
+    },
+    {
+        id: 3,
+        nama: 'Ki Hajar Dewantara',
+        img: '/tokoh/kihajar.jpg',
+        lahir: '2 Mei 1889',
+        wafat: '26 April 1959',
+        pendidikan: 'ELS (Europeesche Lagere School)',
+        agama: 'Islam',
+        tempat: 'Yogyakarta',
+        deskripsi: 'Pendiri Taman Siswa dan pelopor pendidikan untuk kaum pribumi di Indonesia.'
+    },
 ]

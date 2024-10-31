@@ -4,6 +4,7 @@ import NavbarHistory from "../components/sejarah/NavbarHistory"
 import Welcome from "../components/sejarah/Welcome"
 import Footer from '../components/Footer'
 import Galery from "../components/sejarah/Galery"
+import Char from "../components/sejarah/Char"
 
 const History = () => {
   return (
@@ -12,6 +13,7 @@ const History = () => {
         <Welcome/>
         <Header/>
         <About/>
+        <Char/>
         <Galery/>
         <Footer/>
     </div>
