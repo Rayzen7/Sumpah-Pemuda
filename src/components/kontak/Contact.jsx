@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <div className="flex lg:pt-32 pt-16 mb-10 flex-col font-poppins items-center justify-center min-h-screen bg-white p-4">
-      <h1 className="text-[35px] font-[600] mb-12">Kontak Saya</h1>
+      <h1 className="text-[35px] font-[600] mb-12">Kontak Kami</h1>
       <form className="w-full max-w-md" onSubmit={sendWhatsAppMessage}>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
