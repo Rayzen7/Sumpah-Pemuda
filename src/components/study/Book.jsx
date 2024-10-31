@@ -37,7 +37,7 @@ function Book() {
       <h1 className="text-center font-poppins font-[600] text-[32px] lg:text-[40px] -mt-20 lg:mt-20 mb-5">
         Buku <span className="text-red-600">Sumpah Pemuda</span>
       </h1>
-      <div style={{ transform: `scale(${scale}) translate(-5%)`, transformOrigin: 'center' }} className="mx-auto block lg:mt-0 lg:scale-100 -mt-24 lg:overflow-hidden">
+      <div style={{ transform: `scale(${scale})`, transformOrigin: 'center' }} className="mx-auto book block lg:mt-0 lg:scale-100 -mt-24 lg:overflow-hidden">
         <HTMLFlipBook width={window.innerWidth < 768 ? 400 : 500} height={window.innerWidth < 768 ? 600 : 600} className="font-poppins block mx-0 lg:mx-auto overflow-hidden pb-24">
           <div className="demoPage bg-[rgb(196,1,1)] rounded-xl p-10 shadow-2xl">
             <div className="flex flex-col w-full h-full justify-center items-center text-white gap-5">

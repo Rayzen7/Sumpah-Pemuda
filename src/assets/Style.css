@@ -32,6 +32,10 @@
   display: none;
 }
 
+.book {
+  transform: translate(0);
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .list {
     display: block;
@@ -39,5 +43,9 @@
 
   .br {
     display: none;
+  }
+
+  .book {
+    transform: translate(-5%);
   }
 }
