@@ -18,7 +18,7 @@ const Galery = () => {
         modules={[EffectCards]}
         effect="cards"
         grabCursor={true}
-        className='lg:mt-0 -mt-10'
+        className='lg:mt-0 mt-7'
       >
         <SwiperSlide>
           <img src={img1} alt="Image 1" className="lg:w-[600px] w-[320] h-auto object-cover rounded-xl" />
