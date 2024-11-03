@@ -5,6 +5,7 @@ import Welcome from "../components/sejarah/Welcome"
 import Footer from '../components/Footer'
 import Galery from "../components/sejarah/Galery"
 import Char from "../components/sejarah/Char"
+import CharAll from "../components/sejarah/CharAll"
 
 const History = () => {
   return (
@@ -14,6 +15,7 @@ const History = () => {
         <Header/>
         <About/>
         <Char/>
+        <CharAll/>
         <Galery/>
         <Footer/>
     </div>
