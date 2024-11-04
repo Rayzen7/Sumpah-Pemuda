@@ -11,7 +11,7 @@ const About = () => {
 
     return (
         <div id='tentangkami' data-aos="fade-up" data-aos-duration="1000">
-            <h1 className='font-poppins lg:mb-28 mb-36 lg:mt-0 -mt-32 font-[600] text-center lg:text-[45px] text-[27px]'>Tentang <span className='text-red-600'>Kami</span></h1>
+            <h1 className='font-poppins -mt-40 lg:mb-20 mb-36 lg:mt-0 font-[600] text-center lg:text-[45px] text-[27px]'>Tentang <span className='text-red-600'>Kami</span></h1>
             <div className='w-full h-[100vh] flex lg:flex-row flex-col justify-center lg:items-start gap-16 items-center'>
                 <img src={img} alt="" className='lg:w-[400px] w-[280px] block lg:mx-0 mx-auto h-auto'/>
                 <div>
